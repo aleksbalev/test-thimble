@@ -1,0 +1,20 @@
+.Navbar {
+  margin: 35px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavbarWeapper {
+  display: flex;
+}
+
+.NavbarLang {
+  opacity: 0.75;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+    transition: ease-in-out 0.25s;
+  }
+}

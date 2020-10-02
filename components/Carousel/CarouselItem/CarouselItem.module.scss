@@ -1,0 +1,35 @@
+@import '../../../styles/abstracts/mixins';
+
+.CarouselItemList {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.CarouselItem {
+  margin-right: 95px;
+  @include carousel-item;
+}
+
+.CarouselItemImageWrapper {
+  overflow: hidden;
+  width: 320px;
+
+  .Shade {
+    position: absolute;
+  }
+}
+
+.CarouselNextItem {
+  @include carousel-item;
+  position: relative;
+}
+
+.CarouselItemImage {
+  margin-bottom: 32px;
+
+  border-radius: 12px;
+}
+
+.CarouselItemCaption {
+  padding-left: 30px;
+}

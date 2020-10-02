@@ -1,0 +1,39 @@
+@import '../../../styles/abstracts/variables';
+
+.List {
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+
+  color: rgba(#ffffff, .75);
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+.ListItem {
+  position: relative;
+  margin-right: 44px;
+
+  &:hover,
+  &:focus {
+    color: rgba(#ffffff, 1);
+    transition: ease-in-out 0.25s;
+  }
+}
+
+.ListItemsCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -13px;
+  top: -12px;
+  width: 18px;
+  height: 18px;
+
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: $accent-color;
+  border-radius: 100px;
+}

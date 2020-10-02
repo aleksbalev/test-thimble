@@ -1,0 +1,20 @@
+@mixin h2-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+@mixin carousel-item {
+  p {
+    margin-bottom: 8px;
+
+    font-weight: 300;
+    font-size: 18px;
+    color: rgba(#ffffff, .75);
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 24px;
+  }
+}

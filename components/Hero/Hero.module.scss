@@ -1,0 +1,55 @@
+@import '../../styles/abstracts/animations';
+
+.Hero {
+  padding-top: 140px;
+  padding-bottom: 120px;
+  margin-bottom: 88px;
+
+  background-image: url('/assets/images/group_hero.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 100% 60px;
+
+}
+
+.HeroLocations {
+  display: flex;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+
+  color: #a1a1a1;
+  font-size: 14px;
+  font-weight: 300;
+
+  animation: moveInLeft 1s ease-out;
+}
+
+.HeroLocationsItem {
+  margin-right: 16px;
+
+  span {
+    margin-right: 5px;
+  }
+
+  animation: moveInLeft 1s ease-out;
+}
+
+.HeroSmallTitle {
+  margin-bottom: 15px;
+
+  font-weight: 300;
+  font-size: 24px;
+
+  animation: moveInLeft 1s ease-out;
+}
+
+.HeroTitle {
+  padding-right: 41%;
+  margin-bottom: 30px;
+
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+
+  animation: moveInLeft 1s ease-out;
+}

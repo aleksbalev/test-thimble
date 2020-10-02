@@ -1,0 +1,45 @@
+@import '../../styles/abstracts/mixins';
+
+.Carousel {
+  margin-bottom: 140px;
+
+  position: relative;
+}
+
+.CarouselHeading {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    @include h2-title;
+  }
+
+  a {
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      opacity: .75;
+    }
+
+    &:active {
+      opacity: .45;
+    }
+  }
+}
+
+.CarouselButton {
+  position: absolute;
+  top: 73px;
+  right: -160px;
+  padding: 230px 77px 374px 218px;
+  cursor: pointer;
+
+  outline: none;
+  border: none;
+  background-color: transparent;
+}

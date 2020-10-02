@@ -1,0 +1,29 @@
+@import '../../styles/abstracts/variables';
+
+.Clients {
+  padding: 30px 25px 27px;
+  margin-bottom: 88px;
+
+  border-radius: 10px;
+  background-color: $main-bg-color;
+}
+
+.ClientsList {
+  display: flex;
+  align-items: center;
+}
+
+.ClientsText {
+  margin-right: 95px;
+
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.ClientsLogo {
+
+  &:not(:last-child) {
+    margin-right: 56px;
+  }
+}
